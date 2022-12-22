@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Martian+Mono:wght@200;300;400;500&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster+Two&family=Martian+Mono:wght@200;300;400;500&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+/*
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Martian Mono', monospace;
+
+    font-family: 'Chivo Mono', monospace;
+font-family: 'Lobster Two', cursive;
+font-family: 'Martian Mono', monospace;
+font-family: 'Noto Serif', serif;
+    */
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 10px 0px;
+    font-family: 'Lobster Two', cursive;
+}
+
+body {
+    background-size: 100vw 100vh;
+}
+
+.cuerpo {
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 15px 10px;
+    font-family: 'Noto Serif', serif;
+}
+
+.content {
+    text-align: left;
+    margin: 0px 40px;
+}
+
+.buttonNH {
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: 0px;
+    border-radius: 7px;
+    padding: 7px 7px;/*Margen por dentro*/
+    margin: 7px 7px;/*Margen por fuera*/
+}
+
+.cajaTitulo {
+    padding: 5px 5px;
+    width: 100%;
+    height: auto;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.cajaContent {
+    padding: 5px 5px;
+    width: 100%;
+    height: 60vh;
+    font-family: 'Martian Mono', monospace;
+    resize: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.nextbotc{
+    text-align: center;
+}

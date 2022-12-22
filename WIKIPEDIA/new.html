@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/stylesnh.css">
+    <title>Wiki</title>
+</head>
+
+  <body>
+    <section class="cuerpo">
+        <h2>Creando una Nueva Pagina</h2>
+        <form action="./cgi-bin/new.pl" method="GET">
+            <div class="content">
+                <h4>
+                    Titulo:
+                </h4>
+                <input name="titulo" type="text" class="cajaTitulo" placeholder="Inserte su titulo" required>
+                <h4>
+                    Escriba el contenido con formato Markdown:
+                </h4>
+                <textarea name="contenido" class="cajaContent" placeholder="Inserte su contenido..." required></textarea>
+                <div class="nextbotc">
+                    <input type="submit" value="Enviar" class="buttonNH">
+                    <input type="button" value="Cancelar" onclick="location.href='./index.html'" class="buttonNH">
+                </div>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
+
